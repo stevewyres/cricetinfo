@@ -1,9 +1,9 @@
-export interface CountryInfo {
-    data: Country[]
+export interface ICountryInfo {
+    data: ICountry[]
     status: string
   }
   
-export interface Country {
+export interface ICountry {
     id: string
     name: string
     genericFlag: string
