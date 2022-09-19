@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Countries from './components/Countries/Countries';
 import Header from './components/Header/Header';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     
     <div className="App">
       <Header />
+      <Countries />
     </div>
   );
 }
