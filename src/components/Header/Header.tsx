@@ -7,6 +7,10 @@ const Header = () => (
     <Wrapper>
         <Content>
             <LogoImg src={Logo} alt='rmdb logo'></LogoImg>
+            <div>
+                <span>Menu Items here</span>
+            </div>
+            <div>Steve CricInfo Test Site</div>
         </Content>
     </Wrapper>
 );

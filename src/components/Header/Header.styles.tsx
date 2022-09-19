@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background: var(--darkGrey);
+  background-color: rgba(200,200,200,.7);
   padding: 0 20px;
 `;
 
@@ -15,9 +15,9 @@ export const Content = styled.div`
 `;
 
 export const LogoImg = styled.img`
-   width:200px;
+   width:150px;
    @media screen and (max-width: 500px) {
-       width:150px;
+       width:100px;
    }
 `;
 
